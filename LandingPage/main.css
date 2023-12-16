@@ -1,0 +1,103 @@
+@font-face {
+	font-family: MonserratBold;
+	src: url("fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+@font-face {
+	font-family: MonserratRegular;
+	src: url("fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navbar {
+	padding: 10px;
+	display: flex;
+/*	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
+}
+
+.navbar-items {
+	font-family: MonserratRegular;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar-items h2, a {
+	color: black;
+	margin-left: 30px;
+}
+
+.navbar-items a {
+	padding: 7px;
+	border-bottom: 2px solid transparent;
+	transition: 0.5s border-bottom;
+}
+
+.navbar-items a:hover {
+	border-bottom: 2px solid black;
+}
+
+.product-intro {
+	background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.5), white);
+	display: flex;
+	padding: 10%;
+	justify-content: center;
+}
+
+.description {
+	font-family: MonserratRegular;
+	margin-right: 40px;
+}
+
+.product-intro * {
+	margin: 0 30px;
+}
+
+.product-intro img {
+	width: 300px;
+}
+
+.shop-now {
+	padding: 10px;
+	background-color: lightgreen;
+	width: fit-content;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s transform;
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.shop-now:hover {
+	transform: translateX(5px);
+}
+
+.statistics-container {
+	margin: 40px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.seperator {
+	font-size: 3rem;
+	color: gray;
+}
+
+.statistic {
+	margin: auto;
+	text-align: center;
+}
+
+.statistic h2 {
+	font-family: MonserratBold;
+}
+
+.statistic p {
+	font-family: MonserratRegular;
+}
+
